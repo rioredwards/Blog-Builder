@@ -6,7 +6,7 @@ import Editor from '../Editor/Editor';
 import './Home.css';
 
 export default function Home() {
-  // add useState calls here for title, subtitle, font, align, and text
+  // add useState calls here for title, subtitle, font, align, and text!
   const [title, setTitle] = useState('');
   const [subTitle, setSubTitle] = useState('');
   const [font, setFont] = useState('');

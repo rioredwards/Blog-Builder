@@ -15,7 +15,7 @@ export default function Editor({
   setText,
 }) {
   const handleChange = (event) => {
-    console.log(`${event.target.name}: ${event.target.value}`);
+    // console.log(`${event.target.name}: ${event.target.value}`);
     event.target.name === 'title' && setTitle(event.target.value);
     event.target.name === 'subTitle' && setSubTitle(event.target.value);
     event.target.name === 'font' && setFont(event.target.value);
